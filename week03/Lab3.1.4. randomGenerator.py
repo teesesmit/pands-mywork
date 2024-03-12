@@ -8,8 +8,10 @@ number = random.randint(1,10)
 
 print('here is a random number {}'. format(number))
 
+# User inputs the range
+
 x =int(input('Type a number to start the range: ')) #enter start
-y=int(input('Type a number to end the range: ')) #enter end
+y =int(input('Type a number to end the range: ')) #enter end
 
 print(range(x, y))
 
